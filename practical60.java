@@ -10,7 +10,6 @@ public static void main(String[] args) {
 	ls.add("yellow");
 	ls.add("black");
 	System.out.println("before extracing: "+ls);
-	List<String> sub = new ls.subList(0, 3);
-	System.out.println(sub);
+	System.out.println(ls.subList(0, 3));
 }
 }
